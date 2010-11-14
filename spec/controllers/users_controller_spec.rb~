@@ -36,8 +36,6 @@ describe UsersController do
     end
   end
 
-  end
-
   describe "GET 'new'" do
     it "should be successful" do
       get 'new'
@@ -50,4 +48,5 @@ describe UsersController do
     end
   end
 
+  
 end

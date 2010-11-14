@@ -92,9 +92,7 @@ describe User do
     before(:each) do
       @user = User.create!(@attr)
     end
-    .
-    .
-    .
+    
     it "should set the encrypted password" do
       @user.encrypted_password.should_not be_blank
     end

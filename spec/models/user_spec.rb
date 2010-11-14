@@ -97,5 +97,7 @@ describe User do
       @user.encrypted_password.should_not be_blank
     end
   end
+  
+  
 
 end
